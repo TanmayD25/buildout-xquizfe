@@ -1,0 +1,71 @@
+body{
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(300deg, hsl(212, 45%, 89%), hsl(212, 82%, 78%), hsl(212, 96%, 68%));
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.quiz-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 400px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 28px 7px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+#answer-list > li{
+  padding: 15px;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+#answer-list > li:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+h1{
+  margin-top: 0px;
+  background-color: hsl(212, 78%, 53%);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+#question {
+  margin: 0px 18px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  background-color: hsl(212, 78%, 53%);
+  color: white;
+  border-radius: 50px;
+  margin-bottom: 28px;
+  padding: 2% 5%;
+  font-size: 22px;
+  border: 0px;
+  font-weight: 700;
+  margin-left: 125px;
+}
+
+button:hover{
+  background-color: hsl(212, 91%, 69%);
+  cursor: pointer;
+}
+
+button:active {
+  /* Style for button when held down (active state) */
+  background-color: hsl(212, 78%, 53%);
+
+}
